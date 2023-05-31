@@ -1,6 +1,6 @@
 # Handwritten Digits Classification using Convolution Neural Network (CNN)
 
-    This repo contains code for building a CNN model which is trained on the MNIST dataset for Handwritten Digits Classification
+This repo contains code for building a CNN model which is trained on the MNIST dataset for Handwritten Digits Classification
 
 ## File Structure
 
@@ -22,6 +22,12 @@ Non-trainable params: 0
 ----------------------------------------------------------------
 ```
 
-`utils.py` contains the utility functions for training the model, testing the model, summary of the model
+`utils.py` contains the utility functions for training the model, testing the model, plotting the training metrics of the model
 
 `S5.ipynb` contains the code for Using the MNIST Dataset and training the model
+
+## How to Use
+
+Open the `S5.ipynb` file and Model Can be trained using the MNIST Data. Alternatiely `model.py` file can be imported directly in any another notebook and can be trained on other datasets and saved to the disk.
+
+Standalone, `utils.py` can also be used for the generic train, test and metrics plotting methods irrespective of the notebook file and the model file.
